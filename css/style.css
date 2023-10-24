@@ -2,19 +2,25 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  }
 
- /*HOME PAGE */
+ /*HOME PAGE starts*/
  
  body{
-    background-image: url(../img/5n7Coa-LogoMakr.png);
-    background-repeat: no-repeat;
-    background-size: 700px;
-    background-position-x: 600px;
-    background-position-y: 100px;
+   
     background-color: #F0EFE9  ;
-   
-   
+}
+.backimage{
+  
+    width: 600px;
+    height: 600px;
+    size: 700px;
+    position: absolute;
+    top: 125px;
+    right: 675px;
+
+    
     
 }
 
@@ -70,7 +76,8 @@ h2{
     font-size: 25px;
     font-weight: 400;
     position: absolute;
-    
+    justify-content: space-between;
+    word-spacing: 0.2em;
 }
 .box1{ 
     
@@ -86,7 +93,7 @@ h2{
    
 }
 .box3{
-    width: 450px;
+    width: 475px;
     bottom: 40px;
     left: 50%;
     transform:translateX(-50%) ;
@@ -110,4 +117,103 @@ h2{
      right: 145px;
     bottom: 12px;
 }
+/* HOME PAGE ends */
 
+
+/* pictures and logo for detailed pages and contact page  starts*/
+
+.velsleft,
+
+.marsmanleft,
+
+.bergmanleft,
+
+.spaarneleft
+{
+
+position: absolute;
+bottom: 40px;
+left: 525px;
+
+width: 350px;
+height: 380px;
+border-radius: 2rem;
+
+
+}
+
+.velsright,
+.marsmanright,
+.bergmanright,
+.spaarneright{
+
+    position: absolute;
+    bottom: 40px;
+    right: 525px;
+    
+    width: 350px;
+    height: 380px;
+    border-radius:2rem ;
+
+}
+.logo{
+position: absolute;
+top: 125px;
+right: 45px;
+border-bottom: 2px solid black;
+
+}
+
+
+
+/* pictures and logo for detailed pages and contact page ends*/
+
+
+
+/* texts of detailed pages stars */
+.velserbroekexp,
+.marsmanpleinexp,
+.bergmanclinicsexp,
+.spaarnegasthuisexp{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 300px;
+    background-color: rgba(207, 203, 197, 0.7);
+    position: absolute;
+    top: 180px;
+    left: 80px;
+    border-radius: 2rem;
+
+  
+    
+  
+    word-spacing: 0.2em;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+    
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* texts of detailed pages ends */
