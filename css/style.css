@@ -9,19 +9,21 @@
  
  body{
    
-    background-color: #F0EFE9  ;
+    background-color: F0EFE9  ;
 }
+
+
+
+
 .backimage{
-  
+    position: relative;
     width: 600px;
     height: 600px;
-    size: 700px;
-    position: absolute;
-    top: 125px;
-    right: 675px;
-
-    
-    
+    top: 45px;
+    left: 320px;
+    opacity: 0.9;
+border-bottom: 2px solid black;
+ 
 }
 
 .navigationbar ul {
@@ -65,101 +67,115 @@ h2{
 }
 .box1,.box2,.box3{
    
-    display: flexbox  ;
+   
     border-radius: 20px;
     width: 550px;
     height: 380px;
-    background-color:rgb(181, 180, 181,0.9) ;
+    background-color:rgb(181, 180, 181,0.5) ;
     padding: 20px;
     border: 2px solid rgba(78, 64, 52, 0.26);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     font-weight: 400;
-    position: absolute;
+   
     justify-content: space-between;
     word-spacing: 0.2em;
 }
-.box1{ 
-    
-    top: 130px;
-    left: 85px;
+.container{
+   display: flex;
+   position: relative;
+   top: -470px;
    
+    flex-wrap: wrap;
 }
-.box2{
-  
-    top: 130px;
-    right:85px;
-   
-   
+.box1,.box2{
+    flex: 2;
+    border-radius: 20px;
+    background-color: rgb(181, 180, 181, 0.8);
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid rgba(78, 64, 52, 0.26);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    justify-content: space-between;
+    word-spacing: 0.2em;
 }
+   
+   
+
 .box3{
+    flex: 2;
+    border-radius: 20px;
+    background-color:rgb(181, 180, 181,0.5) ;
+    padding: 20px;
+    border: 2px solid rgba(78, 64, 52, 0.26);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    justify-content: space-between;
+    word-spacing: 0.2em;
+    position: relative;
+    top: -300px;
     width: 475px;
     bottom: 40px;
     left: 50%;
     transform:translateX(-50%) ;
 }
 
-.left{
+.imgcontainer{
+    display: flex;
+    position: relative;
+}
+
+.left,.right{
+    position: relative;
+    top: -850px;
     width: 345px;
     height: 430px;
-    position: absolute;
     border-radius: 20px;
     border: 2px solid rgb(136, 135, 135) ;
-    left:145px;
-    bottom: 12px;
+    margin: 150px;
+    
+}
+.left{
+   right: 100px;
 }
 .right{
-    width: 345px;
-    height: 430px;
-    position: absolute;
-    border-radius: 20px;
-    border: 2px solid rgb(136, 135, 135) ;
-     right: 145px;
-    bottom: 12px;
+    left: 90px;
 }
 /* HOME PAGE ends */
 
 
 /* pictures and logo for detailed pages and contact page  starts*/
 
-.velsleft,
+.containervels,.containerspaarne,.containermarsman,.containerbergman{
+display: flex;
+position: relative;
 
-.marsmanleft,
+width: 250px;
+height: 480px;
+border-radius:2rem ;
+top: -155px;
+right:  -250px;
 
-.bergmanleft,
+}
+.velsleft,.velsright,.spaarneleft,.spaarneright,.marsmanleft,.marsmanright,.bergmanleft,.bergmanright{
 
-.spaarneleft
-{
-
-position: absolute;
-bottom: 40px;
-left: 525px;
-
-width: 350px;
-height: 380px;
-border-radius: 2rem;
+width: 300px;
+height: 450px;
+margin: 20px;
 
 
 }
 
-.velsright,
-.marsmanright,
-.bergmanright,
-.spaarneright{
 
-    position: absolute;
-    bottom: 40px;
-    right: 525px;
-    
-    width: 350px;
-    height: 380px;
-    border-radius:2rem ;
-
-}
 .logo{
-position: absolute;
-top: 125px;
-right: 45px;
+display: flex;
+position: relative;
+
+top: 35px;
+right: -1050px;
 border-bottom: 2px solid black;
 
 }
@@ -176,12 +192,13 @@ border-bottom: 2px solid black;
 .bergmanclinicsexp,
 .spaarnegasthuisexp{
     display: flex;
+    position: relative;
     flex-direction: column;
-    width: 550px;
-    height: 300px;
+    width: 650px;
+    height: 400px;
     background-color: rgba(207, 203, 197, 0.7);
-    position: absolute;
-    top: 180px;
+    
+    top: -200px;
     left: 80px;
     border-radius: 2rem;
 
@@ -198,8 +215,6 @@ border-bottom: 2px solid black;
 
 
 }
-
-
 
 
 
