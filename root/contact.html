@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ContactPage</title>
   <link rel="stylesheet"  href="../css/style.css">
 </head>
 
@@ -25,14 +25,36 @@
 </header> 
 <section>
   <img src="../img/5n7Coa-LogoMakr.png" alt=""class="logo">
-  
-  </section>
-<main>
+ </section>
+
+ <main >
 
 
 
+  <form class="contactform" >
+<h1>Contact Form</h1>
 
+<section class="namesctn">
+<label for="firstname">First Name:</label>
+<input type="text" id="firstname" name="firstname" required>
+</section>
 
+<section class="lastnamesctn">
+<label for= "lastname">Last Name:</label>
+<input type="text" id="lastname" name="lastname" required>
+</section>
+
+<section class="emailsctn">
+<label for= "email">Email:</label>
+<input type="email" id="email" name="email" required>
+</section>
+
+<section class="commentsctn">
+<label for="comment">Comment:</label>
+<textarea id="comment" name="comment"  required>  </textarea>
+</section>
+
+<button class="button" type ="submit">Submit</button >
 
 
 

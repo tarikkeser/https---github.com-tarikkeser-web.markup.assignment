@@ -210,11 +210,13 @@ border-bottom: 2px solid black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 
+
+    .spacer {
+        margin-top: 1em;}
+
+
+} 
     
-    
-
-
-}
 
 
 
@@ -228,7 +230,58 @@ border-bottom: 2px solid black;
 
 
 
+
+
+.spacer {
+    margin-top: 1em;}
 
 
 
 /* texts of detailed pages ends */
+
+
+
+/*contactform*/
+.contactform{
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 20px ;
+    border: 2px solid;
+    border-color: solid  black ;
+    background-color: rgb(196, 215, 122);
+    height: 50vh;
+    font-size: 25px;
+ 
+
+
+}
+.contactform h1{
+    text-align: center;
+}
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: 30px;
+width: 150px;
+   
+    
+}
+.namesctn,.lastnamesctn,.emailsctn,.commentsctn{
+   margin: 10px;
+    display: flex;
+    
+   
+}
+.contactform,.button{
+    text-align: center;
+}
+.commentsctn{
+    margin: 10px;
+    display: flex;
+    width: 1285px;
+    height: 100px;
+  
+}
