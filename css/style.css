@@ -9,7 +9,7 @@
  
  body{
    
-    background-color: F0EFE9  ;
+    background-color:#F0EFE9  ;
 }
 
 
@@ -45,6 +45,7 @@ align-items: center;
 flex-direction: row;
 justify-content: space-around;
 list-style: none;
+letter-spacing: 0.5px;
 
 }
 
@@ -64,7 +65,15 @@ h2{
     text-align: center;
     text-decoration: underline;
     font-size: 25px;
+    
 }
+.container{
+    display: flex;
+    position: relative;
+    top: -470px;
+    
+     flex-wrap: wrap;}
+
 .box1,.box2,.box3{
    
    
@@ -74,20 +83,19 @@ h2{
     background-color:rgb(181, 180, 181,0.5) ;
     padding: 20px;
     border: 2px solid rgba(78, 64, 52, 0.26);
-    font-family: Arial, Helvetica, sans-serif;
+    border-width: 1px;
+    border-style: double;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;
     font-weight: 400;
-   
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    text-indent: 20px;
     justify-content: space-between;
     word-spacing: 0.2em;
 }
-.container{
-   display: flex;
-   position: relative;
-   top: -470px;
-   
-    flex-wrap: wrap;
-}
+
+
 .box1,.box2{
     flex: 2;
     border-radius: 20px;
@@ -95,7 +103,7 @@ h2{
     padding: 20px;
     margin: 20px;
     border: 2px solid rgba(78, 64, 52, 0.26);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;
     font-weight: 400;
     justify-content: space-between;
@@ -159,12 +167,15 @@ border-radius:2rem ;
 top: -155px;
 right:  -250px;
 
+
 }
 .velsleft,.velsright,.spaarneleft,.spaarneright,.marsmanleft,.marsmanright,.bergmanleft,.bergmanright{
 
 width: 300px;
 height: 450px;
 margin: 20px;
+display: flex;
+
 
 
 }
@@ -194,44 +205,23 @@ border-bottom: 2px solid black;
     display: flex;
     position: relative;
     flex-direction: column;
-    width: 650px;
-    height: 400px;
+    width: 750px;
+    height: 450px;
     background-color: rgba(207, 203, 197, 0.7);
-    
+    padding: 10px;
     top: -200px;
     left: 80px;
     border-radius: 2rem;
-
-  
-    
-  
+    border-style: double;
+    text-indent: 20px;
+    line-height: 1.5;
     word-spacing: 0.2em;
     font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-
-
-    .spacer {
-        margin-top: 1em;}
-
-
+    letter-spacing: 0.5px;
+    
 } 
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .spacer {
     margin-top: 1em;}
 
@@ -241,7 +231,7 @@ border-bottom: 2px solid black;
 
 
 
-/*contactform*/
+/*contactform stars*/
 .contactform{
     width: 600px;
     height: 400px;
@@ -249,10 +239,11 @@ border-bottom: 2px solid black;
     margin: 50px auto;
     border-radius: 20px ;
     border: 2px solid;
-    border-color: solid  black ;
+    border-color:  black ;
     background-color: rgb(196, 215, 122);
     height: 50vh;
     font-size: 25px;
+    letter-spacing: 0.5px;
  
 
 
@@ -285,3 +276,35 @@ width: 150px;
     height: 100px;
   
 }
+/*contact form ends */
+
+/*footer adjustments*/
+
+footer{
+    text-align: center;
+   background-color: rgb(203, 191, 164);
+}
+.cookiemessages{
+position: absolute;
+bottom: 0;
+right: 0;
+width: 200px;
+height: 150px;
+padding: 20px;
+text-align: center;
+text-decoration: underline;
+font-size: 20px;
+
+background-color: rgb(255, 255, 255);
+z-index: 9999;
+border: 3px solid black;
+border-style: ridge;
+
+}
+.acceptcookies{
+
+color: black;
+background-color: rgb(254, 254, 254);
+cursor: cell;
+}
+
