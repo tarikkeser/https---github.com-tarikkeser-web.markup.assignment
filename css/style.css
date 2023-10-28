@@ -132,7 +132,7 @@ img {
 
 /* HOME PAGE ends */
 
-/* texts of detailed pages stars */ 
+/* texts of detailed pages stars */
 .spacer {
     margin-top: 1em;
 }
@@ -316,7 +316,8 @@ footer {
 
 @media screen and (max-width: 769px) {}
 
-input,.text:checked{
-   
+input,
+.text:checked {
+
     color: rgb(205, 93, 23);
 }
