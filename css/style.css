@@ -315,3 +315,8 @@ footer {
 /*pc*/
 
 @media screen and (max-width: 769px) {}
+
+input,.text:checked{
+   
+    color: rgb(205, 93, 23);
+}
