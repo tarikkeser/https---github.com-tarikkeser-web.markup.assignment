@@ -2,4 +2,4 @@ Student name: Ahmed Tarik Keser
 Student number: 708323
 Student class: IT1A
 GitHub Repository: https://github.com/tarikkeser/https---github.com-tarikkeser-web.markup.assignment
-GitHub Pages URL: your github pages URL
+GitHub Pages URL: https://tarikkeser.github.io/https---github.com-tarikkeser-web.markup.assignment/
