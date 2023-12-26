@@ -9,6 +9,18 @@ a,
 
 }
 
+a:visited {
+    color: purple;
+}
+
+
+ul li a.current {
+    color: green;
+}
+
+
+
+
 ul {
     list-style: none;
 }
@@ -22,6 +34,7 @@ body {
     padding: 0 10px;
 
 }
+
 
 /*HOME PAGE starts*/
 
@@ -46,6 +59,7 @@ header .navigationbar ul {
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 0.5px;
+    text-transform: uppercase;
 }
 
 a {
@@ -120,6 +134,7 @@ img {
     text-indent: 20px;
     line-height: 1.5;
     word-spacing: 0.2em;
+
 }
 
 .box2 ul li {
@@ -214,6 +229,7 @@ img {
 
 
 
+
 }
 
 .contactform h1 {
@@ -236,6 +252,8 @@ label {
 .commentsctn {
     margin: 10px;
     display: flex;
+    text-transform: uppercase;
+
 
 
 }
@@ -243,6 +261,8 @@ label {
 .contactform,
 .button {
     text-align: center;
+    text-transform: uppercase;
+
 }
 
 .commentsctn {
@@ -250,6 +270,8 @@ label {
     display: flex;
     width: 1285px;
     height: 100px;
+
+
 
 }
 
